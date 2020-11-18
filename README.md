@@ -1,1 +1,0 @@
-# seogineer.github.io
