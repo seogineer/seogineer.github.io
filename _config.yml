@@ -41,7 +41,7 @@ footer:
       link: /feed.xml
 
 # Build settings
-#remote_theme: eliottvincent/bay_jekyll_theme
+remote_theme: eliottvincent/bay_jekyll_theme
 markdown: kramdown
 sass:
     style: :compressed
