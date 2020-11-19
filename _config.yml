@@ -9,6 +9,8 @@ url: "https://seogineer.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
+remote_theme: eliottvincent/bay_jekyll_theme
+
 header:
   pages:
     - name: Home
@@ -42,7 +44,7 @@ footer:
 
 # Build settings
 #theme: bay_jekyll_theme
-remote_theme: eliottvincent/bay_jekyll_theme
+
 markdown: kramdown
 sass:
     style: :compressed
