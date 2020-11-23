@@ -43,7 +43,7 @@ footer:
       #link: /feed.xml
 
 # Build settings
-remote_theme: eliottvincent/bay
+#remote_theme: eliottvincent/bay
 markdown: kramdown
 sass:
     style: :compressed
