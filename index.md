@@ -6,9 +6,13 @@ profile_picture:
 ---
 
 <p>
-  Hello! My name is Seo Do Gyeong. I live in Seoul. I'm a web developer.
+  Hello! 
 </p>
 
 <p>
-  In spare time, I'm mountain climbing and playing game.
+  My name is Seo Do Gyeong. I live in Seoul. I'm a web developer.
+</p>
+
+<p>
+  In spare time, I'm hiking and playing game.
 </p>
