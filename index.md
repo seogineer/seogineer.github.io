@@ -10,9 +10,9 @@ profile_picture:
 </p>
 
 <p>
-  My name is Seo Do Gyeong. I'm a web developer. I live in Seoul.
+  My name is Seo. I'm a web developer. I live in Seoul.
 </p>
 
 <p>
-  In spare time, I'm hiking and playing game(lol).
+  In spare time, I'm hiking and playing game(LOL).
 </p>
