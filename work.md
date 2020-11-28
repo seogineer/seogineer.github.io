@@ -24,7 +24,7 @@ slug: /work
 #### - KEB 로고 최신화
 #### - 언어 코드 추가(일본어, 영어)
 #### - 언어 및 기술: Javascript, JSP, UNIX, Tibero, UltraEdit, Windows7
-
+***
 ### 삼성전자 P-PJT 설비제어공사
 #### (주)에스아이티 / 2017.03.01 ~ 2017.06.01 / 인턴
 #### - HMI 화면 개발 및 테스트
