@@ -12,7 +12,10 @@ items:
     # image:
       # src: /assets/img/work/sand.png
       # alt: sand
-    description: 2017.03.01 ~ 2017.06.01 / 인턴   - HMI 화면 개발 및 테스트   -납품 단말 유지보수   -기술:C, WinCC OA, Windows7
+    description: 2017.03.01 ~ 2017.06.01 / 인턴
+    - HMI 화면 개발 및 테스트
+    -납품 단말 유지보수
+    -기술:C, WinCC OA, Windows7
 ---
 <br />
 <br />
