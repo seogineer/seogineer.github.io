@@ -15,7 +15,7 @@ slug: /work
 #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 ---
 
-### 우리은행
+### 우리은행 한국교직원공제회 외화거래은행 외화자금운용시스템 구축
 #### (주)코아뱅크 / 2020.07.27 ~ 2020.10.30 / 사원
 #### - 통화코드관리 개발
 #### - BIC코드관리 개발
