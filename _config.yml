@@ -53,6 +53,20 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Skills # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      Backend
+       - Java
+       - Spring Boot
+       - Maven
+
+      DevOps
+       - MySQL, MariaDB
+
+      Frontend
+       - HTML, CSS, Javascript
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
