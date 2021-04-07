@@ -59,15 +59,19 @@ content:
       - layout: left
         title: Backend
         description: |
-        - Java
-        - Spring Boot
-        - Maven
+          - Java
+          - Spring Boot
+          - Maven
 
-      DevOps
-       - MySQL, MariaDB
+      - layout: left
+        title: DevOps
+        description: |
+          - MySQL, MariaDB
 
-      Frontend
-       - HTML, CSS, Javascript
+      - layout: left
+        title: Frontend
+        description: |
+          - HTML, CSS, Javascript
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
