@@ -55,11 +55,13 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Skills # Title for the section
     layout: text # Type of content section (list/text)
-    content: |
-      Backend
-       - Java
-       - Spring Boot
-       - Maven
+    content:
+      - layout: left
+        title: Backend
+        description: |
+        - Java
+        - Spring Boot
+        - Maven
 
       DevOps
        - MySQL, MariaDB
