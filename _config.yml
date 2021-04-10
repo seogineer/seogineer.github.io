@@ -87,15 +87,57 @@ content:
         quote: >
           2020.07.27 - 2020.10.30
         description: | # this will include new lines to allow paragraphs
-          - 통화코드관리 개발
-          - BIC코드관리 개발
-          - 국가코드관리 개발
-          - CUT-TIME관리/연장 개발
-          - 인터페이스전문관리 개발
-          - 환율정보조회 개발
-          - 공통정보항목명세 개발
-          - 환율 정보 수신 개발
+          - 통화코드관리
+          - BIC코드관리
+          - 국가코드관리
+          - CUT-TIME관리/연장
+          - 인터페이스전문관리
+          - 환율정보조회
+          - 공통정보항목명세
+          - 환율 정보 수신
           - Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
+
+      - layout: top-middle
+        title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
+        quote: >
+          2020.02.17 - 2020.07.06
+        description: |
+          - 업체 코드 관리 화면 신규
+          - CDK-Plus SWIFT 전문 변환 기능 개선
+          - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
+
+      - layout: top-middle
+        title: 하나은행 수출입 고도화 프로젝트
+        quote: >
+          2019.03.25 - 2020.01.31
+        description: |
+          - EDMS(Electronic Document Management System) 연동
+          - 내국신용장 개설 조회
+          - NEGO 서류 추가 발송
+          - 통합기일조회(수입서류인도 대상 조회 추가)
+          - 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
+          - Javascript, Xframe, Proframe, Oracle, Windows10
+
+      - layout: top-middle
+        title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
+        quote: >
+          2018.10.22 - 2019.01.25
+        description: |
+          - 공지사항 게시판 작성자 검색 기능 버그 수정
+          - 권한에 따른 게시판 탭 표시
+          - 전용 게시판 이름 변경
+          - KEB 로고 최신화
+          - 언어 코드 추가(일본어, 영어)
+          - Javascript, JSP, UNIX, Tibero, UltraEdit, Windows7
+
+      - layout: top-middle
+        title: 삼성전자 P-PJT 설비제어공사
+        quote: >
+          2017.03.01 - 2017.05.30
+        description: |
+          - HMI 화면 개발 및 테스트
+          - 납품 단말 유지보수
+          - C, WinCC OA, Windows7
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
