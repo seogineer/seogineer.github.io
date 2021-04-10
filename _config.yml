@@ -65,11 +65,13 @@ content:
           - Spring Boot
           - Maven, Gradle
           - Node.js, Npm
+          - Git, Sourcetree
 
       - layout: left
         title: DevOps
         description: |
           - MySQL, MariaDB
+          - Linux
 
       - layout: left
         title: Frontend
