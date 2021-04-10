@@ -88,14 +88,6 @@ content:
           2020.07.27 - 2020.10.30
         description: | # this will include new lines to allow paragraphs
           - 통화코드관리 개발
-          - BIC코드관리 개발
-          - 국가코드관리 개발
-          - CUT-TIME관리/연장 개발
-          - 인터페이스전문관리 개발
-          - 환율정보조회 개발
-          - 공통정보항목명세 개발
-          - 환율 정보 수신 개발
-          - 언어 및 프로그램: Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
