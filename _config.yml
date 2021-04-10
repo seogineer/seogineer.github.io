@@ -48,7 +48,7 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java, Spring Backend 개발자입니다.<mark>Backend Engineer</mark>
+  1년차 백엔드 개발자입니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -174,17 +174,26 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 자바, 스프링을 이용한 웹 애플리케이션 제작 교육
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Certificate # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 정보처리기사
+        sub_title: 한국산업인력공단
+        description: | # this will include new lines to allow paragraphs
+          - 2016.07.15 취득
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
