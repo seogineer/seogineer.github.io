@@ -85,7 +85,7 @@ content:
           #  icon: fab fa-github
           #  url: github.com/sproogen/modern-resume-theme
         quote: >
-          2020.07.27 - 2020.10.30
+          2020.07 - 2020.10
         description: | # this will include new lines to allow paragraphs
           - 통화코드관리
           - BIC코드관리
@@ -100,16 +100,16 @@ content:
       - layout: top-middle
         title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
         quote: >
-          2020.02.17 - 2020.07.06
+          2020.02 - 2020.07
         description: |
-          - 업체 코드 관리 화면 신규
+          - 업체 코드 관리 화면
           - CDK-Plus SWIFT 전문 변환 기능 개선
           - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
 
       - layout: top-middle
         title: 하나은행 수출입 고도화 프로젝트
         quote: >
-          2019.03.25 - 2020.01.31
+          2019.03 - 2020.01
         description: |
           - EDMS(Electronic Document Management System) 연동
           - 내국신용장 개설 조회
@@ -121,7 +121,7 @@ content:
       - layout: top-middle
         title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
         quote: >
-          2018.10.22 - 2019.01.25
+          2018.10 - 2019.01
         description: |
           - 공지사항 게시판 작성자 검색 기능 버그 수정
           - 권한에 따른 게시판 탭 표시
@@ -133,25 +133,46 @@ content:
       - layout: top-middle
         title: 삼성전자 P-PJT 설비제어공사
         quote: >
-          2017.03.01 - 2017.05.30
+          2017.03 - 2017.05
         description: |
           - HMI 화면 개발 및 테스트
           - 납품 단말 유지보수
           - C, WinCC OA, Windows7
 
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: 코아뱅크
+        caption: 2018.09 - 2020.11
+        sub_title: 웹 개발자
+        quote: >
+          금융 SI
+        description: | # this will include new lines to allow paragraphs
+          - 우리은행, 하나은행 SI 프로젝트 참여
+          - Xframe, 전자정부프레임워크, Oracle 환경에서 개발 경험
+
+      - layout: left
+        title: 에스아이티
+        caption: 2017.03 - 2017.05
+        sub_title: 인턴
+        quote: >
+          삼성전자 협력사
+        description: | # this will include new lines to allow paragraphs
+          - 삼성전자 P-PJT 설비제어공사 참여
+          - 지멘스 S7, WinCC OA 환경에서 개발 경험
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: 비트교육센터
+        caption: 2018.02 - 2018.08
+        sub_title: 자바 기반 웹&앱 개발자 양성과정
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          엄진영 강사님의 교육
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          - 자바, 스프링을 이용한 웹 애플리케이션 제작 교육
 
   - title: A Little More About Me
     layout: text
