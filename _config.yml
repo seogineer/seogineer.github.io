@@ -55,21 +55,14 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
-    quote: >
-      경험해보거나 현재 사용중인 기술
     content:
       - layout: left
         title: Backend
         description: |
           - Java
           - Spring Boot
-          - Maven, Gradle
-          - Node.js, Npm
+          - Maven
           - Git, Sourcetree
-
-      - layout: left
-        title: DevOps
-        description: |
           - MySQL, MariaDB
           - Linux
 
@@ -90,7 +83,7 @@ content:
           #  icon: fab fa-github
           #  url: github.com/sproogen/modern-resume-theme
         quote: >
-          2020.07 - 2020.10
+          2020.07 ~ 2020.10
         description: | # this will include new lines to allow paragraphs
           - 통화코드관리
           - BIC코드관리
@@ -105,7 +98,7 @@ content:
       - layout: top-middle
         title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
         quote: >
-          2020.02 - 2020.07
+          2020.02 ~ 2020.07
         description: |
           - 업체 코드 관리 화면
           - CDK-Plus SWIFT 전문 변환 기능 개선
@@ -114,7 +107,7 @@ content:
       - layout: top-middle
         title: 하나은행 수출입 고도화 프로젝트
         quote: >
-          2019.03 - 2020.01
+          2019.03 ~ 2020.01
         description: |
           - EDMS(Electronic Document Management System) 연동
           - 내국신용장 개설 조회
@@ -126,7 +119,7 @@ content:
       - layout: top-middle
         title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
         quote: >
-          2018.10 - 2019.01
+          2018.10 ~ 2019.01
         description: |
           - 공지사항 게시판 작성자 검색 기능 버그 수정
           - 권한에 따른 게시판 탭 표시
@@ -138,7 +131,7 @@ content:
       - layout: top-middle
         title: 삼성전자 P-PJT 설비제어공사
         quote: >
-          2017.03 - 2017.05
+          2017.03 ~ 2017.05
         description: |
           - HMI 화면 개발 및 테스트
           - 납품 단말 유지보수
@@ -148,8 +141,17 @@ content:
     layout: list
     content:
       - layout: left
+        title: 넥스트컬쳐
+        caption: 2020.04 ~ 현재
+        sub_title: 자바 백엔드 개발자
+        quote: >
+          웹에이전시
+        description: | # this will include new lines to allow paragraphs
+          - 작업중...
+
+      - layout: left
         title: 코아뱅크
-        caption: 2018.09 - 2020.11
+        caption: 2018.09 ~ 2020.11
         sub_title: 웹 개발자
         quote: >
           금융 SI
@@ -159,7 +161,7 @@ content:
 
       - layout: left
         title: 에스아이티
-        caption: 2017.03 - 2017.05
+        caption: 2017.03 ~ 2017.05
         sub_title: 인턴
         quote: >
           삼성전자 협력사
@@ -172,7 +174,7 @@ content:
     content:
       - layout: left
         title: 비트교육센터
-        caption: 2018.02 - 2018.08
+        caption: 2018.02 ~ 2018.08
         sub_title: 자바 기반 웹&앱 개발자 양성과정
         quote: >
           엄진영 강사님의 교육
