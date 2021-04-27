@@ -61,7 +61,7 @@ content:
         description: |
           - Java
           - Spring Boot
-          - Spring Data JPA
+          - JPA, Querydsl
           - Maven
           - Git, Sourcetree
           - MySQL, MariaDB
@@ -77,14 +77,13 @@ content:
     content:
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
+        caption: 코아뱅크 / 2020.07 ~ 2020.10
         # link: github.com/sproogen
         # link_text: Project Website
         # additional_links:
           # - title: sproogen/modern-resume-theme
           #  icon: fab fa-github
           #  url: github.com/sproogen/modern-resume-theme
-        quote: >
-          코아뱅크 / 2020.07 ~ 2020.10
         description: | # this will include new lines to allow paragraphs
           - 통화코드관리
           - BIC코드관리
@@ -98,8 +97,7 @@ content:
 
       - layout: left
         title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
-        quote: >
-          코아뱅크 / 2020.02 ~ 2020.07
+        caption: 코아뱅크 / 2020.02 ~ 2020.07
         description: |
           - 업체 코드 관리 화면
           - CDK-Plus SWIFT 전문 변환 기능 개선
@@ -107,8 +105,7 @@ content:
 
       - layout: left
         title: 하나은행 수출입 고도화 프로젝트
-        quote: >
-          코아뱅크 / 2019.03 ~ 2020.01
+        caption: 코아뱅크 / 2019.03 ~ 2020.01
         description: |
           - EDMS(Electronic Document Management System) 연동
           - 내국신용장 개설 조회
@@ -119,8 +116,7 @@ content:
 
       - layout: left
         title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
-        quote: >
-          코아뱅크 / 2018.10 ~ 2019.01
+        caption: 코아뱅크 / 2018.10 ~ 2019.01
         description: |
           - 공지사항 게시판 작성자 검색 기능 버그 수정
           - 권한에 따른 게시판 탭 표시
@@ -131,8 +127,7 @@ content:
 
       - layout: left
         title: 삼성전자 P-PJT 설비제어공사
-        quote: >
-          에스아이티 / 2017.03 ~ 2017.05
+        caption: 에스아이티 / 2017.03 ~ 2017.05
         description: |
           - HMI 화면 개발 및 테스트
           - 납품 단말 유지보수
