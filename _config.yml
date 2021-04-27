@@ -65,7 +65,11 @@ content:
           - Maven
           - Git, Sourcetree
           - MySQL, MariaDB
-          - Linux
+
+      - layout: left
+        title: DevOps
+        description: |
+          - Ubuntu Linux
 
       - layout: left
         title: Frontend
