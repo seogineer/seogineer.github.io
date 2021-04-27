@@ -60,8 +60,8 @@ content:
         title: Backend
         description: |
           - Java
-          - Spring Boot
-          - JPA, Querydsl
+          - Spring Boot, Spring Data
+          - Querydsl, JPA/Hibernate
           - Maven
           - Git, Sourcetree
           - MySQL, MariaDB
