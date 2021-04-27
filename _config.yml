@@ -48,7 +48,7 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - 1년차 백엔드 개발자입니다.
+  - 3년차 웹 개발자입니다. 현재는 Java 백엔드 개발자로 일하고 있습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -61,6 +61,7 @@ content:
         description: |
           - Java
           - Spring Boot
+          - Spring Data JPA
           - Maven
           - Git, Sourcetree
           - MySQL, MariaDB
@@ -74,7 +75,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
         # link: github.com/sproogen
         # link_text: Project Website
@@ -95,7 +96,7 @@ content:
           - 환율 정보 수신
           - Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
 
-      - layout: top-middle
+      - layout: left
         title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
         quote: >
           코아뱅크 / 2020.02 ~ 2020.07
@@ -104,7 +105,7 @@ content:
           - CDK-Plus SWIFT 전문 변환 기능 개선
           - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
 
-      - layout: top-middle
+      - layout: left
         title: 하나은행 수출입 고도화 프로젝트
         quote: >
           코아뱅크 / 2019.03 ~ 2020.01
@@ -116,7 +117,7 @@ content:
           - 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
           - Javascript, Xframe, Proframe, Oracle, Windows10
 
-      - layout: top-middle
+      - layout: left
         title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
         quote: >
           코아뱅크 / 2018.10 ~ 2019.01
@@ -128,7 +129,7 @@ content:
           - 언어 코드 추가(일본어, 영어)
           - Javascript, JSP, UNIX, Tibero, UltraEdit, Windows7
 
-      - layout: top-middle
+      - layout: left
         title: 삼성전자 P-PJT 설비제어공사
         quote: >
           에스아이티 / 2017.03 ~ 2017.05
