@@ -60,8 +60,8 @@ content:
         title: Backend
         description: |
           - Java
-          - Spring Boot, Spring Data
-          - Querydsl, JPA/Hibernate
+          - Spring Boot, 
+          - Spring Data JPA, Querydsl
           - Maven
           - Git, Sourcetree
           - MySQL, MariaDB
@@ -79,6 +79,22 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 롯데칠성 음료학교 리뉴얼
+        caption: 2021.04 ~ 2021.07
+        sub_title: 넥스트컬처
+        description: |
+          - 공지사항 게시판
+          - 뉴스레터 게시판
+          - 포트폴리오 게시판
+          - Q&A 게시판
+          - FAQ 게시판
+          - 신제품 인큐베이팅 게시판
+          - 인큐베이팅 리그 게시판
+          - 소식 구독
+          - 관리자 화면(댓글, 인큐베이팅 등)
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Ubuntu Linux, IntelliJ
+      
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
         caption: 2020.07 ~ 2020.10
@@ -147,12 +163,13 @@ content:
     content:
       - layout: left
         title: 넥스트컬쳐
-        caption: 2020.04 ~ 현재
+        caption: 2021.04 ~ 현재
         sub_title: 자바 백엔드 개발자
         quote: >
           웹에이전시
-        description: | # this will include new lines to allow paragraphs
-          - 작업중...
+        description: | 
+          - 롯데칠성 음료학교 리뉴얼 프로젝트
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Ubuntu Linux, IntelliJ 환경에서 개발 경험
 
       - layout: left
         title: 코아뱅크
@@ -160,7 +177,7 @@ content:
         sub_title: 웹 개발자
         quote: >
           금융 SI
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           - 우리은행, 하나은행 SI 프로젝트 참여
           - Xframe, 전자정부프레임워크, Oracle 환경에서 개발 경험
 
@@ -170,7 +187,7 @@ content:
         sub_title: 인턴
         quote: >
           공장자동화
-        description: | # this will include new lines to allow paragraphs
+        description: | 
           - 삼성전자 P-PJT 설비제어공사 참여
           - 지멘스 S7, WinCC OA 환경에서 Human-Machine Interface 개발 경험
 
