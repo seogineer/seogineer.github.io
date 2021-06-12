@@ -162,7 +162,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 넥스트컬쳐
+        title: 넥스트컬처
         caption: 2021.04 ~ 현재
         sub_title: 자바 백엔드 개발자
         quote: >
