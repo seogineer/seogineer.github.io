@@ -80,8 +80,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 롯데칠성 음료학교 재구축
-        caption: 2021.04 ~ 2021.07
+        title: 롯데칠성 음료학교 웹사이트 리뉴얼
+        caption: 2021.04 ~
         sub_title: 넥스트컬처
         description: |
           - 공지사항 게시판
@@ -168,7 +168,7 @@ content:
         quote: >
           웹에이전시
         description: | 
-          - 롯데칠성 음료학교 재구축 프로젝트
+          - 롯데칠성 음료학교 웹사이트 리뉴얼 프로젝트
           - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Ubuntu Linux, IntelliJ 환경에서 개발 경험
 
       - layout: left
