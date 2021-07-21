@@ -81,7 +81,7 @@ content:
     content:
       - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
-        caption: 2021.04 ~
+        caption: 2021.04 ~ 2021.08
         sub_title: 넥스트컬처
         description: |
           - 공지사항 게시판
@@ -92,8 +92,9 @@ content:
           - 신제품 인큐베이팅 게시판
           - 인큐베이팅 리그 게시판
           - 소식 구독
-          - 관리자 화면(댓글, 인큐베이팅 등)
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Ubuntu Linux, IntelliJ
+          - 관리자 화면(댓글, 인큐베이팅 목록 조회)
+          - 개인정보 보안 대응 개발(개인정보 마스킹, 개인정보 이용 및 접근 로그, 개인정보 일괄 처리)
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
@@ -169,7 +170,7 @@ content:
           웹에이전시
         description: | 
           - 롯데칠성 음료학교 웹사이트 리뉴얼 프로젝트
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Ubuntu Linux, IntelliJ 환경에서 개발 경험
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ 환경에서 개발 경험
 
       - layout: left
         title: 코아뱅크
