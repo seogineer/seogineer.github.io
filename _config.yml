@@ -82,7 +82,7 @@ content:
       - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
         caption: 2021.04 ~ 2021.08
-        sub_title: 넥스트컬처
+        sub_title: 넥스트컬쳐
         description: |
           - 공지사항 게시판
           - 뉴스레터 게시판
@@ -163,7 +163,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 넥스트컬처
+        title: 넥스트컬쳐
         caption: 2021.04 ~ 현재
         sub_title: 자바 백엔드 개발자
         quote: >
