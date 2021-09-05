@@ -80,13 +80,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-          title: 롯데푸드 웹사이트 리뉴얼
-          caption: 2021.08 ~ 2021.09
-          sub_title: 넥스트컬쳐
-          description: |
-            - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트)
-            - 고객지원(공지사항)
-            - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
+        title: 롯데푸드 웹사이트 리뉴얼
+        caption: 2021.08 ~ 2021.09
+        sub_title: 넥스트컬쳐
+        description: |
+          - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트)
+          - 고객지원(공지사항)
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
 
       - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
