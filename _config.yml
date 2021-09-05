@@ -80,6 +80,15 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+          title: 롯데푸드 웹사이트 리뉴얼
+          caption: 2021.08 ~ 2021.09
+          sub_title: 넥스트컬쳐
+          description: |
+            - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트)
+            - 고객지원(공지사항)
+            - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
+
+      - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
         caption: 2021.04 ~ 2021.08
         sub_title: 넥스트컬쳐
@@ -94,7 +103,7 @@ content:
           - 소식 구독
           - 관리자 화면(댓글, 인큐베이팅 목록 조회)
           - 개인정보 보안 심의 대응 개발(개인정보 마스킹, 개인정보 이용 및 접근 로그, 개인정보 일괄 처리)
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
       
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
