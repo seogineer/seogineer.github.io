@@ -177,8 +177,9 @@ content:
         sub_title: 자바 백엔드 개발자
         quote: >
           웹에이전시
-        description: | 
-          - 롯데칠성 음료학교 웹사이트 리뉴얼 프로젝트
+        description: |
+          - 롯데푸드 웹사이트 리뉴얼
+          - 롯데칠성 음료학교 웹사이트 리뉴얼
           - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ 환경에서 개발 경험
 
       - layout: left
