@@ -208,7 +208,7 @@ content:
         quote: >
           엄진영 강사님의 교육
         description: | # this will include new lines to allow paragraphs
-          - Java를 이용한 웹 애플리케이션 제작 교육
+          - 풀스택 웹 애플리케이션 제작 교육
           - Java 8, Spring Framework, SQL, MariaDB, myBatis, JSP, HTML/CSS, Javascript, jQuery, Handlebars, Maven, Gradle, npm, GitHub, AWS, Eclipse
 
   - title: Certificate # Title for the section
