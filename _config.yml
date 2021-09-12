@@ -48,7 +48,8 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - 3년차 웹 개발자입니다. 현재는 Java 백엔드 개발자로 일하고 있습니다.
+  - 3년차 웹 개발자입니다.
+  - Java 백엔드 개발자로 일하고 있습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -102,7 +103,7 @@ content:
           - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
       
       - layout: left
-        title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
+        title: 우리은행 한국교직원공제회 외화자금운용시스템
         caption: 2020.07 ~ 2020.10
         sub_title: 코아뱅크
         # link: github.com/sproogen
@@ -123,7 +124,7 @@ content:
           - Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
 
       - layout: left
-        title: 우리은행 인도 첸나이 SCORE(글로비스) 구축
+        title: 우리은행 인도 첸나이 SCORE(글로비스)
         caption: 2020.02 ~ 2020.07
         sub_title: 코아뱅크
         description: |
@@ -132,7 +133,7 @@ content:
           - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
 
       - layout: left
-        title: 하나은행 수출입 고도화 프로젝트
+        title: 하나은행 수출입 고도화
         caption: 2019.03 ~ 2020.01
         sub_title: 코아뱅크
         description: |
@@ -144,7 +145,7 @@ content:
           - Javascript, Xframe, Proframe, Oracle, Windows10
 
       - layout: left
-        title: 하나은행 글로벌검사정보 시스템 고도화 프로젝트
+        title: 하나은행 글로벌검사정보 시스템 고도화
         caption: 2018.10 ~ 2019.01
         sub_title: 코아뱅크
         description: |
@@ -170,13 +171,12 @@ content:
       - layout: left
         title: 넥스트컬쳐
         caption: 2021.04 ~ 2021.09
-        sub_title: 자바 백엔드 개발자
+        sub_title: Java 백엔드 개발자
         quote: >
           웹에이전시
         description: |
-          - 롯데푸드 웹사이트 리뉴얼
-          - 롯데칠성 음료학교 웹사이트 리뉴얼
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ 환경에서 개발 경험
+          - 서버 개발 및 인프라 관리 경험
+          - Java 11, Spring Boot, JPA, QueryDSL 환경에서 개발 경험
 
       - layout: left
         title: 코아뱅크
@@ -186,7 +186,7 @@ content:
           금융 SI
         description: | 
           - 우리은행, 하나은행 SI 프로젝트 참여
-          - Xframe, 전자정부프레임워크, Oracle 환경에서 개발 경험
+          - xFrame, 전자정부프레임워크, Oracle 환경에서 개발 경험
 
       - layout: left
         title: 에스아이티
@@ -204,7 +204,7 @@ content:
       - layout: left
         title: 비트교육센터
         caption: 2018.02 ~ 2018.08
-        sub_title: 자바 기반 웹&앱 개발자 양성과정
+        sub_title: Java 기반 웹&앱 개발자 양성과정
         quote: >
           엄진영 강사님의 교육
         description: | # this will include new lines to allow paragraphs
