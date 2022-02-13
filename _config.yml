@@ -81,13 +81,35 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 기아모터스 유럽법인 My Service 고도화
+        caption: 2022.02 ~ 
+        sub_title: 웅진IT
+        description: |
+          - 고객 정보 상세 화면 필수 입력 항목 선택 기능 및 유효성 검증 개선
+          - Java 8, Spring Framework 4, JSP, Javascript, jQuery, PostgreSQL, Bitbucket, Jira, Sourcetree, IntelliJ
+
+      - layout: left
+        title: 기아모터스 유럽법인 Kia Dealer Academy 고도화
+        caption: 2021.10 ~ 2022.01
+        sub_title: 웅진IT
+        description: |
+          - Admin 사이트 WBT resource/IBT resource 게시판 통합
+          - Admin 사이트 학습 대상자 Email 목록 Query 변경
+          - Admin 사이트 Resource 등록 시 Department Select box 표시 범위 변경
+          - Admin 사이트 강의 Reopen 시 Module setting 초기화
+          - Learner 사이트 메인 페이지 정보 추가 및 개선
+          - Learner 사이트 직위 표시 다국어 처리
+          - 레거시 소스 제거 및 주석 영문화
+          - Java 6, Spring Framework 2, JSP, Javascript, jQuery, Oracle, Bitbucket, Jira, Sourcetree, Eclipse
+
+      - layout: left
         title: 롯데푸드 웹사이트 리뉴얼
         caption: 2021.08 ~ 2021.09
         sub_title: 넥스트컬쳐
         description: |
           - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트)
           - 고객지원(공지사항)
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
 
       - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
@@ -100,7 +122,7 @@ content:
           - MY PAGE(내가 작성한 댓글 목록, 인큐베이팅 신청 목록)
           - 회원 관리(인큐베이팅 신청 내역, 댓글 목록, 댓글 게시/미게시, 엑셀 다운로드)
           - 개인정보 보안 심의 대응 개발(개인정보 마스킹, 개인정보 이용 및 접근 로그, 개인정보 일괄 처리)
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ Ultimate
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템
