@@ -191,9 +191,19 @@ content:
     layout: list
     content:
       - layout: left
+        title: 웅진IT
+        caption: 2021.10 ~ 
+        sub_title: 플랫폼사업본부 모빌리티사업팀 / 웹 개발자
+        quote: >
+          국외 시스템 유지보수
+        description: |
+          - 기아모터스 유럽법인 Dealer Academy, My Service 시스템 유지보수
+          - Java, Spring Framework, JSP 환경에서 개발 경험
+
+      - layout: left
         title: 넥스트컬쳐
         caption: 2021.04 ~ 2021.09
-        sub_title: Java 백엔드 개발자
+        sub_title: 백엔드 개발팀 / 백엔드 개발자
         quote: >
           웹에이전시
         description: |
@@ -203,7 +213,7 @@ content:
       - layout: left
         title: 코아뱅크
         caption: 2018.09 ~ 2020.11
-        sub_title: 웹 개발자
+        sub_title: SI사업부 / 웹 개발자
         quote: >
           금융 SI
         description: | 
@@ -213,7 +223,7 @@ content:
       - layout: left
         title: 에스아이티
         caption: 2017.03 ~ 2017.05
-        sub_title: 인턴
+        sub_title: 반도체사업2팀 / 인턴
         quote: >
           공장자동화
         description: | 
