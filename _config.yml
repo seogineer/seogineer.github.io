@@ -84,7 +84,7 @@ content:
       - layout: left
         title: Kia Europe MyService Enhancement
         caption: 2022.02 ~ 2022.03
-        sub_title: 웅진IT
+        sub_title: 웅진 IT
         description: |
           - 고객 정보 상세 화면 필수 입력 항목 지정 기능 및 유효성 검증 개선
           - SOAP 통신을 이용해서 EAI에 Recall Campaign 데이터 요청 및 표시
@@ -94,7 +94,7 @@ content:
       - layout: left
         title: Kia Motors Europe Dealer Academy Enhancement
         caption: 2021.10 ~ 2022.01
-        sub_title: 웅진IT
+        sub_title: 웅진 IT
         description: |
           - Admin 사이트 WBT resource/IBT resource 게시판 통합
           - Admin 사이트 학습 대상자 Email 목록 Query 변경
@@ -210,7 +210,8 @@ content:
         quote: >
           국외 시스템 유지보수 및 모빌리티 사업
         description: |
-          - 기아모터스 유럽법인 Dealer Academy, My Service 시스템 유지보수
+          - 모빌리티 관련 프로젝트 경험
+          - 기아모터스 유럽법인 Dealer Academy, MyService 시스템 유지보수
           - Java, Spring Framework, JSP 환경에서 개발 경험
 
       - layout: left
