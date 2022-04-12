@@ -88,7 +88,7 @@ content:
         description: |
           - 고객 정보 상세 화면 필수 입력 항목 지정 기능 및 유효성 검증 개선
           - SOAP 통신을 이용해서 EAI에 Recall Campaign 데이터 요청 및 표시
-          - 메뉴별 방문자 수 카운팅
+          - Interceptor를 이용한 메뉴별 방문자 수 카운팅
           - Java 8, Spring Framework 4, JSP, Javascript, jQuery, PostgreSQL, Bitbucket, Jira, Sourcetree, IntelliJ
 
       - layout: left
