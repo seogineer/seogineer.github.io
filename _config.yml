@@ -95,11 +95,9 @@ content:
             - ALOIS별 재고 현황, 부품타입별 입고 현황, 부품타입별 출고 현황, 부품타입별 매출 현황, Parts Aging 현황
           - Raw 리포트 페이지 및 쿼리 개발
             - TurnverOver 리포트, 부품 현황 리포트
-          
           - 성과
             - 조회 속도 개선; 특정 기간 데이터만 저장하는 조회 전용 테이블을 만들고 Batch를 이용해 10 ~ 50만건 규모 데이터의 일부만 주기적으로 조회 전용 테이블에 갱신
             - 검색조건에서 공통으로 사용하는 검색 조건 모듈화; 딜러/사업장/지점, 브랜드/시리즈, 일/월별 조회기간, 딜러 목록 등 공통으로 사용하는 드롭 다운 리스트를 공통 모듈화 하여 페이지 개발 및 변경건 일괄 적용에 편하게 개선
-
           - Java 8, SpringBoot 2.5.8, jQuery, JSP, Lombok, MyBatis, Oracle 19c, git, IntelliJ, Jenkins, Kubernates          
 
       - layout: left
@@ -163,13 +161,19 @@ content:
         caption: 2021.04 ~ 2021.09
         sub_title: 넥스트컬쳐
         description: |
-          - 게시판 관리(음료학교 소식, 포트폴리오, 공지사항, FAQ, QNA, 댓글, 투표, 좋아요)
-          - 메일링 관리(목록 조회, 엑셀 다운로드)
-          - 인큐베이팅(신제품 인큐베이팅, 신상음료 리그, 인큐베이팅 신청 취소, 엑셀 다운로드)
-          - MY PAGE(내가 작성한 댓글 목록, 인큐베이팅 신청 목록)
-          - 회원 관리(인큐베이팅 신청 내역, 댓글 목록, 댓글 게시/미게시, 엑셀 다운로드)
-          - 개인정보 보안 심의 대응 개발(개인정보 마스킹, 개인정보 이용 및 접근 로그, 개인정보 일괄 처리)
-          - Java 11, Spring Boot 2.x, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
+          - 게시판 및 Admin : 음료학교 소식, 포트폴리오, 공지사항, FAQ, QnA, 댓글, 투표, 좋아요
+          - 메일링 및 Admin : 목록 조회, 엑셀 다운로드
+          - 인큐베이팅 및 Admin : 신제품 인큐베이팅, 신상음료 리그, 인큐베이팅 신청 취소 목록, 엑셀 다운로드
+          - MY PAGE : 내가 작성한 댓글 목록, 인큐베이팅 신청 목록
+          - 회원 관리 : 인큐베이팅 신청 내역, 댓글 목록, 댓글 게시/미게시, 엑셀 다운로드
+          - 개인정보 보안 심의 대응 개발
+            - Admin 페이지에서 개인정보 조회 시 정규식과 replace로 이름, 이메일 (*)로 마스킹
+            - @Scheduled, cron을 이용해서 주기적으로 개인정보 삭제
+            - 개인정보 이용 및 접근 시 로그 저장
+          - 개발 서버 Gitlab CI/CD 구축
+            - GitLab에서 기본 제공하는 CI/CD를 이용해서 구축
+            - 구축 설명서 및 오류 해결 방법 정리 후 팀내 공유
+          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ
       
       - layout: left
         title: 우리은행 한국교직원공제회 외화자금운용시스템
@@ -205,19 +209,15 @@ content:
           - NEGO 서류 추가 발송
           - 통합기일조회(수입서류인도 대상 조회 추가)
           - 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
-          - Javascript, Xframe, Proframe, Oracle, Windows10
+          - C, Javascript, Xframe, Proframe, Oracle, Windows10
 
       - layout: left
         title: 하나은행 글로벌검사정보 시스템 고도화
         caption: 2018.10 ~ 2019.01
         sub_title: 코아뱅크
         description: |
-          - 공지사항 게시판 작성자 검색 기능 버그 수정
-          - 권한에 따른 게시판 탭 표시
-          - 전용 게시판 이름 변경
-          - KEB 로고 최신화
-          - 언어 코드 추가(일본어, 영어)
-          - Javascript, JSP, UNIX, Tibero, UltraEdit, Windows7
+          - 공지사항 게시판 작성자 검색 기능 버그 수정, 권한에 따른 게시판 표시, KEB 로고 최신화 ,언어 코드 추가(일본어, 영어)
+          - Java, JSP, Javascript, UNIX, Tibero, UltraEdit, Windows7
 
       - layout: left
         title: 삼성전자 P-PJT 설비제어공사
