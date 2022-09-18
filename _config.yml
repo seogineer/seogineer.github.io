@@ -250,7 +250,7 @@ content:
         caption: 2021.10 ~ 2022.10
         sub_title: 모빌리티사업팀 / 웹 개발자
         quote: >
-          국외 시스템 유지보수 및 모빌리티 관련 프로젝트
+          모빌리티 관련 프로젝트 및 국외 시스템 유지보수
         description: |
           - 기아모터스 유럽법인, 넥센타이어, BMW 프로젝트 참여
           - Java, Spring Framework, Spring Boot, JSP, MyBatis 환경에서 개발 경험
@@ -270,7 +270,7 @@ content:
         caption: 2018.09 ~ 2020.11
         sub_title: SI사업부 / 웹 개발자
         quote: >
-          금융 관련 프로젝트
+          금융 프로젝트
         description: | 
           - 우리은행, 하나은행 프로젝트 참여
           - xFrame, 전자정부프레임워크, Oracle 환경에서 개발 경험
@@ -283,7 +283,7 @@ content:
           공장자동화 프로젝트
         description: | 
           - 삼성전자 P-PJT 설비제어공사 참여
-          - 지멘스 S7, WinCC OA 환경에서 Human-Machine Interface 개발 경험
+          - C, WinCC OA, Oracle, 지멘스 S7 환경에서 Human-Machine Interface 개발 경험
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -296,7 +296,7 @@ content:
           엄진영 강사님의 교육
         description: | # this will include new lines to allow paragraphs
           - 풀스택 웹 서비스 개발에 필요 지식과 기술을 학습
-          - Java 8, Spring Framework, SQL, MariaDB, myBatis, JSP, HTML/CSS, Javascript, jQuery, Handlebars, Maven, Gradle, npm, GitHub, AWS, Eclipse
+          - Java 8, Spring Framework, SQL, MariaDB, MyBatis, JSP, HTML/CSS, Javascript, jQuery, Handlebars, Maven, Gradle, npm, GitHub, AWS, Eclipse
 
       - layout: left
         title: 강원대학교
