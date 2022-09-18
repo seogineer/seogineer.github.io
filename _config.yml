@@ -48,8 +48,9 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  - 4년차 웹 개발자입니다.
-  - 웅진에서 웹 개발자로 일하고 있습니다.
+  Java & Spring 4년차 웹 개발자입니다.
+  금융, 웹에이전시, 모빌리티 분야 관련 프로젝트 경험을 가지고 있습니다. 여러 개발 환경에서 빠르게 적응해서 프로젝트를 성공적으로 수행했습니다.
+  실력을 갈고 닦아 인정 받는 개발자가 되고 싶습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -84,7 +85,7 @@ content:
       - layout: left
         title: Kia Europe MyService Enhancement
         caption: 2022.02 ~ 2022.03
-        sub_title: 웅진 IT
+        sub_title: 웅진
         description: |
           - 고객 정보 상세 화면 필수 입력 항목 지정 기능 및 유효성 검증 개선
           - SOAP 통신을 이용해서 EAI에 Recall Campaign 데이터 요청 및 표시
@@ -94,7 +95,7 @@ content:
       - layout: left
         title: Kia Motors Europe Dealer Academy Enhancement
         caption: 2021.10 ~ 2022.01
-        sub_title: 웅진 IT
+        sub_title: 웅진
         description: |
           - Admin 사이트 WBT resource/IBT resource 게시판 통합
           - Admin 사이트 학습 대상자 Email 목록 Query 변경
@@ -203,15 +204,14 @@ content:
     layout: list
     content:
       - layout: left
-        title: 웅진 IT
+        title: 웅진
         link: https://www.woongjin.co.kr/
-        caption: 2021.10 ~ 
+        caption: 2021.10 ~ 2022.10
         sub_title: 모빌리티사업팀 / 웹 개발자
         quote: >
-          국외 시스템 유지보수 및 모빌리티 사업
+          국외 시스템 유지보수 및 모빌리티 관련 프로젝트
         description: |
-          - 모빌리티 관련 프로젝트 경험
-          - 기아모터스 유럽법인 Dealer Academy, MyService 시스템 유지보수
+          - 기아모터스 유럽법인, 넥센타이어, BMW 프로젝트 참여
           - Java, Spring Framework, JSP 환경에서 개발 경험
 
       - layout: left
@@ -221,7 +221,7 @@ content:
         quote: >
           웹에이전시
         description: |
-          - 서버 개발 및 인프라 관리 경험
+          - 롯데칠성, 롯데푸드 프로젝트 참여
           - Java 11, Spring Boot, JPA, QueryDSL 환경에서 개발 경험
 
       - layout: left
@@ -229,9 +229,9 @@ content:
         caption: 2018.09 ~ 2020.11
         sub_title: SI사업부 / 웹 개발자
         quote: >
-          금융 SI
+          금융 관련 프로젝트
         description: | 
-          - 우리은행, 하나은행 SI 프로젝트 참여
+          - 우리은행, 하나은행 프로젝트 참여
           - xFrame, 전자정부프레임워크, Oracle 환경에서 개발 경험
 
       - layout: left
@@ -239,7 +239,7 @@ content:
         caption: 2017.03 ~ 2017.05
         sub_title: 반도체사업2팀 / 인턴
         quote: >
-          공장자동화
+          공장자동화 프로젝트
         description: | 
           - 삼성전자 P-PJT 설비제어공사 참여
           - 지멘스 S7, WinCC OA 환경에서 Human-Machine Interface 개발 경험
