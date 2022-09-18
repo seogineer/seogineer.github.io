@@ -21,7 +21,7 @@ github_username: seogineer
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: seogineer
+# instagram_username: seogineer
 linkedin_username: 도경-서-863031200
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -246,7 +246,6 @@ content:
     content:
       - layout: left
         title: 웅진
-        link: https://www.woongjin.co.kr/
         caption: 2021.10 ~ 2022.10
         sub_title: 모빌리티사업팀 / 웹 개발자
         quote: >
