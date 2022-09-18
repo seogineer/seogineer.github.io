@@ -48,9 +48,7 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 4년차 웹 개발자입니다.    
-  금융, 웹에이전시, 모빌리티 분야 관련 프로젝트 경험을 가지고 있습니다. 여러 개발 환경에서 빠르게 적응해서 프로젝트를 성공적으로 수행했습니다.    
-  실력을 갈고 닦아 인정 받는 개발자가 되고 싶습니다.
+  Java & Spring 4년차 웹 개발자입니다. 금융, 웹에이전시, 모빌리티 분야 관련 프로젝트 경험을 가지고 있습니다. 여러 개발 환경에서 빠르게 적응해서 프로젝트를 성공적으로 수행했습니다. 실력을 갈고 닦아 인정 받는 개발자가 되고 싶습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -82,6 +80,28 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: BMW Dealer Management System Next 구축 프로젝트
+        caption: 2022.05 ~ 2022.10
+        sub_title: 웅진
+        description: |
+          - Recall/TC 리포트 페이지 및 쿼리 개발
+            - 대리점별 미실시 현황, 딜러별 실시 현황, 대리점별 실시 현황, Recall/TC별 실시 현황
+          - Dealer Turnover 리포트 페이지 및 쿼리 개발
+            - Invoice Type 매출 Trend 리포트(일별/월별), Work Type 매출 Trend 리포트(일별/월별), 취소 Invoice 현황 리포트(일별/월별), 패키지 판매 매출 리포트, 서비스 케어 플러스 매출 리포트, SA별 매출 리포트, Segment별 매출 리포트
+          - 고객/차량 리포트 페이지 및 쿼리 개발
+            - AS고객 개인정보 동의 현황, 대리점 방문 이력 현황, Segment별 재방문 현황, 대리점별 재방문 현황
+          - 부품 현황 리포트 페이지 및 쿼리 개발
+            - ALOIS별 재고 현황, 부품타입별 입고 현황, 부품타입별 출고 현황, 부품타입별 매출 현황, Parts Aging 현황
+          - Raw 리포트 페이지 및 쿼리 개발
+            - TurnverOver 리포트, 부품 현황 리포트
+          
+          - 성과
+            - 조회 속도 개선; 특정 기간 데이터만 저장하는 조회 전용 테이블을 만들고 Batch를 이용해 10 ~ 50만건 규모 데이터의 일부만 주기적으로 조회 전용 테이블에 갱신
+            - 검색조건에서 공통으로 사용하는 검색 조건 모듈화; 딜러/사업장/지점, 브랜드/시리즈, 일/월별 조회기간, 딜러 목록 등 공통으로 사용하는 드롭 다운 리스트를 공통 모듈화 하여 페이지 개발 및 변경건 일괄 적용에 편하게 개선
+
+          - Java 8, SpringBoot 2.5.8, jQuery, JSP, Lombok, MyBatis, Oracle 19c, git, IntelliJ, Jenkins, Kubernates          
+
       - layout: left
         title: 넥센타이어 NEXT LEVEL 시스템 TMS 엔진 고도화 지원개발
         caption: 2022.03 ~ 2022.04
