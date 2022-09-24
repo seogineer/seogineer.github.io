@@ -95,10 +95,11 @@ content:
             - ALOIS별 재고 현황, 부품타입별 입고 현황, 부품타입별 출고 현황, 부품타입별 매출 현황, Parts Aging 현황
           - Raw 리포트 페이지 및 쿼리 개발
             - TurnverOver 리포트, 부품 현황 리포트
-          - 성과
-            - 조회 속도 개선; 특정 기간 데이터만 저장하는 조회 전용 테이블을 만들고 Batch를 이용해 10 ~ 50만건 규모 데이터의 일부만 주기적으로 조회 전용 테이블에 갱신
-            - 검색조건에서 공통으로 사용하는 검색 조건 모듈화; 딜러/사업장/지점, 브랜드/시리즈, 일/월별 조회기간, 딜러 목록 등 공통으로 사용하는 드롭 다운 리스트를 공통 모듈화 하여 페이지 개발 및 변경건 일괄 적용에 편하게 개선
-          - Java 8, SpringBoot 2.5.8, jQuery, JSP, Lombok, MyBatis, Oracle 19c, git, IntelliJ, Jenkins, Kubernates          
+          - 조회 속도 개선
+            - 특정 기간 데이터만 저장하는 조회 전용 테이블을 만들고 Batch를 이용해 10 ~ 50만건 규모 데이터의 일부만 주기적으로 조회 전용 테이블에 갱신
+          - 검색조건에서 공통으로 사용하는 검색 조건 모듈화
+            - 딜러/사업장/지점, 브랜드/시리즈, 일/월별 조회기간, 딜러 목록 등 공통으로 사용하는 드롭 다운 리스트를 공통 모듈화 하여 페이지 개발 및 변경건 일괄 적용에 편하게 개선
+          - Java 8, SpringBoot 2.5.8, jQuery, JSP, Lombok, MyBatis, Oracle 19c, git, IntelliJ, Jenkins, Kubernates        
 
       - layout: left
         title: 넥센타이어 NEXT LEVEL 시스템 TMS 엔진 고도화 지원개발
