@@ -189,8 +189,7 @@ content:
         caption: 2020.02 ~ 2020.07
         sub_title: 코아뱅크
         description: |
-          - 업체 코드 관리 화면
-          - CDK-Plus SWIFT 전문 변환 기능 개선
+          - 업체 코드 관리 화면, CDK-Plus SWIFT 전문 변환 기능 개선
           - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
 
       - layout: left
@@ -198,11 +197,7 @@ content:
         caption: 2019.03 ~ 2020.01
         sub_title: 코아뱅크
         description: |
-          - EDMS(Electronic Document Management System) 연동
-          - 내국신용장 개설 조회
-          - NEGO 서류 추가 발송
-          - 통합기일조회(수입서류인도 대상 조회 추가)
-          - 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
+          - EDMS(Electronic Document Management System) 연동, 내국신용장 개설 조회, 네고 서류 추가 발송, 통합기일조회(수입서류인도 대상 조회 추가), 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
           - C, Javascript, Xframe, Proframe, Oracle, Windows10
 
       - layout: left
@@ -210,7 +205,7 @@ content:
         caption: 2018.10 ~ 2019.01
         sub_title: 코아뱅크
         description: |
-          - 공지사항 게시판 작성자 검색 기능 버그 수정, 권한에 따른 게시판 표시, KEB 로고 최신화 ,언어 코드 추가(일본어, 영어)
+          - 공지사항 게시판 작성자 검색 기능 버그 수정, 권한에 따른 게시판 표시, KEB 로고 최신화, 언어 코드 추가(일본어, 영어)
           - Java, JSP, Javascript, UNIX, Tibero, UltraEdit, Windows7
 
       - layout: left
