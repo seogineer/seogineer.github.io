@@ -181,14 +181,7 @@ content:
         caption: 2020.07 ~ 2020.10
         sub_title: 코아뱅크
         description: | 
-          - 통화코드관리
-          - BIC코드관리
-          - 국가코드관리
-          - CUT-TIME관리/연장
-          - 인터페이스전문관리
-          - 환율정보조회
-          - 공통정보항목명세
-          - 환율 정보 수신
+          - 통화코드관리, BIC코드관리, 국가코드관리, CUT-TIME관리/연장, 인터페이스전문관리, 환율정보조회, 공통정보항목명세, 환율 정보 수신
           - Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
 
       - layout: left
