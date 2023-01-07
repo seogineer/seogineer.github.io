@@ -78,7 +78,7 @@ content:
           - HTML, CSS, Javascript, jQuery
 
   - title: Projects # Title for the section
-    layout: text # Type of content section (list/text)
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         caption: 2022.05 ~ 2022.10
