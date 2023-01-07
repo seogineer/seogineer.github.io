@@ -48,7 +48,7 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 웹 개발자입니다. 금융, 웹에이전시, 모빌리티 분야 관련 프로젝트 경험을 가지고 있습니다. 여러 개발 환경에서 빠르게 적응해서 프로젝트를 성공적으로 수행했습니다. 실력을 갈고 닦아 인정 받는 개발자가 되고 싶습니다.
+  Java/Spring 백엔드 개발자 서도경입니다. 저는 주로 레거시 환경에서 개발 업무를 수행한 경험 때문에 유지 보수 하기 좋은 코드에 관심이 많습니다. 테스트 코드, 리팩토링, 인프라에 대한 역량을 갈고닦아서 레거시 환경에서도 유지보수하기 좋은 개발 환경을 만들고 싶습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -60,17 +60,15 @@ content:
         title: Backend
         description: |
           - Java
-          - Spring Boot
-          - Spring MVC, Spring Data JPA, Querydsl
-          - Maven, Gradle
-          - Git, Sourcetree
-          - Oracle, MariaDB
-          - IntelliJ, Visual Studio Code
+          - Spring Boot, Spring Data JPA
+          - JUnit5
+          - Gradle
 
       - layout: left
         title: DevOps
         description: |
-          - Ubuntu Linux
+          - AWS, Ubuntu Linux
+          - MySQL, Redis
 
       - layout: left
         title: Frontend
@@ -85,137 +83,102 @@ content:
         caption: 2022.05 ~ 2022.10
         sub_title: 웅진
         description: |
-          - Recall/TC 리포트 페이지 및 쿼리 개발
-            - 대리점별 미실시 현황, 딜러별 실시 현황, 대리점별 실시 현황, Recall/TC별 실시 현황
-          - Dealer Turnover 리포트 페이지 및 쿼리 개발
-            - Invoice Type 매출 Trend 리포트(일별/월별), Work Type 매출 Trend 리포트(일별/월별), 취소 Invoice 현황 리포트(일별/월별), 패키지 판매 매출 리포트, 서비스 케어 플러스 매출 리포트, SA별 매출 리포트, Segment별 매출 리포트
-          - 고객/차량 리포트 페이지 및 쿼리 개발
-            - AS고객 개인정보 동의 현황, 대리점 방문 이력 현황, Segment별 재방문 현황, 대리점별 재방문 현황
-          - 부품 현황 리포트 페이지 및 쿼리 개발
-            - ALOIS별 재고 현황, 부품타입별 입고 현황, 부품타입별 출고 현황, 부품타입별 매출 현황, Parts Aging 현황
-          - Raw 리포트 페이지 및 쿼리 개발
-            - TurnverOver 리포트, 부품 현황 리포트
-          - 조회 속도 개선
-            - 특정 기간 데이터만 저장하는 조회 전용 테이블을 만들고 Batch를 이용해 10 ~ 50만건 규모 데이터의 일부만 주기적으로 조회 전용 테이블에 갱신
-          - 검색조건에서 공통으로 사용하는 검색 조건 모듈화
-            - 딜러/사업장/지점, 브랜드/시리즈, 일/월별 조회기간, 딜러 목록 등 공통으로 사용하는 드롭 다운 리스트를 공통 모듈화 하여 페이지 개발 및 변경건 일괄 적용에 편하게 개선
-          - Java 8, SpringBoot 2.5.8, jQuery, JSP, Lombok, MyBatis, Oracle 19c, git, IntelliJ, Jenkins, Kubernates        
-
-      - layout: left
-        title: 넥센타이어 NEXT LEVEL 시스템 TMS 엔진 고도화 지원개발
-        caption: 2022.03 ~ 2022.04
-        sub_title: 웅진
-        description: |
-          - 재배정 작업, Back Office 작업 배정 변경, Front Office(PC, Mobile) 주문변경 시 지점장, 기사에게 문자 발송
-            - TMS로부터 얻어진 데이터를 기준으로 결과에 맞게 문자 메세지를 만들어서 SMS DB에 저장
-          - 작업 배정 조회(차량별-TMS2) 변경, 그리드 추가 및 투어 개수 컬럼 추가
-          - 배치 실행 중 거점 재고를 사용하는 주문은 close, RDC재고를 사용하는 주문을 open
-          - TMS3.0 실행 결과 이력 조회
-          - Back Office, PC, Mobile 화면 전문점 장착일 경우 종료 예정 시간 표시 추가
-          - 비회원 수기 주문 시 기본 주소 누락 건 수정
-          - 메소드 추출 및 Enum을 이용한 리팩토링
-            - 중복 사용되는 메소드를 추출해서 통합하고 공통으로 사용하는 상태값 및 상수를 Enum으로 만들어서 소스 가독성과 유지보수를 편하게 개선
-          - Java 8, Spring framework 4.x, 전자정부프레임워크 3.5, Eclipse, Tomcat, Maven, Oracle, Mybatis, Nexacro 14, SVN, Jenkins
-
-      - layout: left
-        title: Kia Europe MyService Enhancement
-        caption: 2022.02 ~ 2022.03
-        sub_title: 웅진
-        description: |
-          - 고객 정보 상세 화면 필수 입력 항목 지정 기능 및 유효성 검증 개선
-            - DB에 저장된 필수 항목 데이터를 저장하고 이를 기반으로 Input 창을 렌더링할 때 필수(*)를 표시하고 저장할 때도 필수 항목을 검사.
-          - SOAP 통신을 이용해서 EAI에 Recall Campaign 데이터 요청 및 표시
-            - xml 형식으로 요청을 보낸 후 Recall Campaign 관련 데이터를 받아서 화면에 출력
-          - Interceptor에 메뉴별 방문자 수 카운팅 후 DB 저장
-            - 메뉴별 View Id가 존재해서 Interceptor에서 View Id 검사해서 DB에 방문수를 +1
-          - Lombok 도입
-          - Java 8, Spring Framework 4.x, JSP, Javascript, jQuery, PostgreSQL, Bitbucket, Jira, Sourcetree, IntelliJ, Jenkins, SonarQube
+          - BMW KR 딜러, 지점의 부품 재고 현황 및 실적 관리 시스템 / 15명
+          - 보고서 조회 개발 담당(Recall/TC, Dealer Turnover, 고객/차량, 부품 현황 등)
+          - 검색 조건에서 공통으로 사용하는 선택 상자(딜러, 지점, 브랜드, 시리즈 등) 모듈화
+          - 개발 환경 : Java 8, Spring Boot 2.5, jQuery, JSP, MyBatis, Oracle 19c, git, IntelliJ
 
       - layout: left
         title: Kia Motors Europe Dealer Academy Enhancement
-        caption: 2021.10 ~ 2022.01
+        caption: 2022.03 ~ 2022.04
         sub_title: 웅진
         description: |
-          - Admin 사이트 WBT resource/IBT resource 게시판 통합
-          - Admin 사이트 학습 대상자 Email 목록 조회 Query 조건 변경
-          - Admin 사이트 Resource 등록 시 Department Select box 표시 범위 변경
-          - Admin 사이트 강의 Reopen 시 Module setting 초기화
-          - Learner 사이트 메인 페이지 정보 추가 및 개선
-            - 메인 페이지 내에 펼침/접힘 형식으로 현재 강의 진행 상황 표시
-          - Message Source를 이용해서 Locale에 따른 직위 표시 다국어화
-            - DB에 국가별 언어로 직위 정보를 저장하고 Locale에 따라 언어별로 표시
-          - Java 6, Spring Framework 2.x, JSP, Javascript, jQuery, Oracle, Bitbucket, Jira, Sourcetree, Eclipse, Jenkins, SonarQube
+          - 기아 자동차 유럽 법인 딜러 교육 시스템 / 2명
+          - 사용자 페이지와 관리자 페이지 기능 추가 및 수정 담당
+          - Message Source를 이용해서 Locale에 따라 언어별로 직위 표시
+          - 개발 환경 : Java 6, Spring Framework 2, JSP, Javascript, jQuery, Oracle, Maven, Bitbucket, Jira, Eclipse
 
       - layout: left
-        title: 롯데푸드 웹사이트 리뉴얼
-        link: https://lottefoods.co.kr/ko/main
-        caption: 2021.08 ~ 2021.09
-        sub_title: 넥스트컬쳐
+        title: 기타 프로젝트
+        sub_title: 웅진
         description: |
-          - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트)
-          - 고객지원(공지사항)
-          - Java 11, Spring Boot 2.x, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
+          - 넥센 NEXT LEVEL 시스템 Time Management System 엔진 고도화 지원 개발
+            - 비대면 방문 타이어 교체 서비스 / 2022.03 ~ 2022.04 / 3명
+            - 사용자의 주소, 교체를 담당하는 대리점 위치를 이용해서 TMS으로부터 타이어 교체 차량을 배정
+            - TMS로부터 나온 결과에 따라 문자 Table에 문자 저장 및 재고 관련 기능 수정
+            - 사용자, 관리자 페이지 기능 추가 및 오류 수정
+            - 개발 환경 : Java 8, Spring Framework 4, Maven, Javascript, Nexacro 14, Oracle, SVN, Eclipse
+          - Kia Europe MyService Enhancement
+            - 기아 자동차 유럽 법인 정비소 관리 시스템 / 2022.02 ~ 2022.03 / 4명
+            - 사용자 페이지 기능 추가
+            - 페이지별로 가지고 있는 View Id로 Interceptor에서 필터링해서 방문자 수 카운팅
+            - 개발 환경 : Java 8, Spring Framework 4, JSP, Javascript, jQuery, Maven, PostgreSQL, Bitbucket, Jira, IntelliJ
+
+      - layout: left
+        title: 리팩토링
+        sub_title: 웅진
+        description: |
+          - 생성자 주입으로 변경
+          - Enum을 이용한 if문 가독성 개선
+          - Lombok 사용
 
       - layout: left
         title: 롯데칠성 음료학교 웹사이트 리뉴얼
-        link: https://beverageschool.co.kr/
         caption: 2021.04 ~ 2021.09
         sub_title: 넥스트컬쳐
         description: |
-          - 게시판 및 Admin : 음료학교 소식, 포트폴리오, 공지사항, FAQ, QnA, 댓글, 투표, 좋아요
-          - 메일링 및 Admin : 목록 조회, 엑셀 다운로드
-          - 인큐베이팅 및 Admin : 신제품 인큐베이팅, 신상음료 리그, 인큐베이팅 신청 취소 목록, 엑셀 다운로드
-          - MY PAGE : 내가 작성한 댓글 목록, 인큐베이팅 신청 목록
-          - 회원 관리 : 인큐베이팅 신청 내역, 댓글 목록, 댓글 게시/미게시, 엑셀 다운로드
+          - 소비자들이 음료에 대한 아이디어를 공유하고 선정된 아이디어를 롯데 칠성에서 음료를 직접 제작하는 서비스 / 2명
+          - 게시판 및 관리자 페이지 REST API 개발 (음료학교 소식, 포트폴리오, 공지사항, FAQ, QnA, 회원관리 등)
           - 개인정보 보안 심의 대응 개발
-            - Admin 페이지에서 개인정보 조회 시 정규식과 replace로 이름, 이메일 (*)로 마스킹
-            - Spring Scheduler를 이용해서 주기적으로 개인정보 삭제
-            - 개인정보 이용 및 접근 시 로그 저장
-          - 개발 서버 Gitlab CI/CD 구축
-            - GitLab에서 기본 제공하는 CI/CD를 이용해서 구축
-            - 구축 설명서 및 오류 해결 방법 정리 후 팀내 공유
-          - Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ
+            - 관리자 페이지에서 개인정보 조회 시 정규식과 replace를 이용하여 (*)로 마스킹 처리
+            - @Scheduled 기능을 이용하여 주기적으로 개인정보 삭제
+            - 개인정보 조회 시 로그 저장
+          - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ, Jira
       
       - layout: left
-        title: 우리은행 한국교직원공제회 외화자금운용시스템
+        title: 기타 프로젝트
+        sub_title: 넥스트컬쳐
+        description: |
+          - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트), 고객지원(공지사항) REST API 개발
+          - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
+      
+      - layout: left
+        title: 개발 서버에 GitLab의 Runner를 사용하여 CI/CD 구축
+        sub_title: 넥스트컬쳐
+        description: |
+          - 구축 방법 문서화 및 Confluence에 공유
+          - 구축 과정에서 리눅스 권한과 POI 라이브러리와 충돌 오류 해결 과정 Confluence에 공유
+
+      - layout: left
+        title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
         caption: 2020.07 ~ 2020.10
         sub_title: 코아뱅크
         description: | 
-          - 통화코드관리, BIC코드관리, 국가코드관리, CUT-TIME관리/연장, 인터페이스전문관리, 환율정보조회, 공통정보항목명세, 환율 정보 수신
-          - Java, Javascript, 전자정부프레임워크, Tode, Oracle19c, Windows10
+          - 한국교직원공제회의 외화자금운용을 위한 시스템 구축 / 20명
+          - 공통으로 사용하는 코드나 기능 개발 담당(통화코드관리, BIC코드관리, 국가코드관리 등)
+          - 개발 환경 : Java, Javascript, 전자정부프레임워크, Oracle19c, Windows10
 
       - layout: left
-        title: 우리은행 인도 첸나이 SCORE(글로비스)
+        title: 우리은행 인도 첸나이 Standardized Corporate Environment(SCORE) 구축
         caption: 2020.02 ~ 2020.07
         sub_title: 코아뱅크
         description: |
-          - 업체 코드 관리 화면, CDK-Plus SWIFT 전문 변환 기능 개선
-          - Java, Javascript, Oracle, Orange, Filezila, UltraEdit, AIX, Windows10
+          - 우리은행과 기업 사이의 SWIFT 전문 전송 시스템 / 2명
+          - 현대글로비스에서 요구하는 전문 양식에 맞춰 전문 변환 솔루션(CDK-Plus) 기능 수정 역할 담당
+          - 업체 코드 관리 페이지 신규 개발
+          - 개발 환경 : Java, Javascript, JDBC, Oracle, Windows10
 
       - layout: left
-        title: 하나은행 수출입 고도화
-        caption: 2019.03 ~ 2020.01
+        title: 기타 프로젝트
         sub_title: 코아뱅크
         description: |
-          - EDMS(Electronic Document Management System) 연동, 내국신용장 개설 조회, 네고 서류 추가 발송, 통합기일조회(수입서류인도 대상 조회 추가), 수출입MAIN 화면(환율 우대, 수수료 우대 탭)
-          - C, Javascript, Xframe, Proframe, Oracle, Windows10
-
-      - layout: left
-        title: 하나은행 글로벌검사정보 시스템 고도화
-        caption: 2018.10 ~ 2019.01
-        sub_title: 코아뱅크
-        description: |
-          - 공지사항 게시판 작성자 검색 기능 버그 수정, 권한에 따른 게시판 표시, KEB 로고 최신화, 언어 코드 추가(일본어, 영어)
-          - Java, JSP, Javascript, UNIX, Tibero, UltraEdit, Windows7
-
-      - layout: left
-        title: 삼성전자 P-PJT 설비제어공사
-        caption: 2017.03 ~ 2017.05
-        sub_title: 에스아이티
-        description: |
-          - HMI 화면 개발 및 테스트
-          - 납품 단말 유지보수
-          - C, WinCC OA, Windows7
+          - 하나은행 수출입 고도화 / 2019.03 - 2020.01 / 10명
+            - EDMS(Electronic Document Management System)와 연동을 통해 수출입 업무의 전자 문서화
+            - 신규 페이지 개발 및 기존 페이지 기능 추가
+            - 개발 환경 : C, Proframe, Javascript, Xframe, Oracle, Windows10
+          - 하나은행 글로벌검사정보 시스템 고도화 / 2018.10 - 2019.01 / 3명
+            - 게시판 UI 수정 및 오류 수정
+            - 개발 환경 : Java, JSP, Javascript, Tibero, Windows7
 
     # - layout: left
         # title: sample title
@@ -230,52 +193,19 @@ content:
         # description: | # this will include new lines to allow paragraphs
           # - sample desc
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: 웅진
-        caption: 2021.10 ~ 2022.10
-        sub_title: 모빌리티사업팀 / 웹 개발자
-        quote: >
-          모빌리티 관련 프로젝트 및 국외 시스템 유지보수
-        description: |
-          - 기아모터스 유럽법인, 넥센타이어, BMW 프로젝트
-          - Java, Spring Framework, Spring Boot, JSP, MyBatis 환경에서 개발 경험
-
-      - layout: left
-        title: 넥스트컬쳐
-        caption: 2021.04 ~ 2021.09
-        sub_title: 백엔드 개발팀 / 백엔드 개발자
-        quote: >
-          웹에이전시
-        description: |
-          - 롯데칠성, 롯데푸드 프로젝트
-          - Java 11, Spring Boot, JPA, QueryDSL 환경에서 개발 경험
-
-      - layout: left
-        title: 코아뱅크
-        caption: 2018.09 ~ 2020.11
-        sub_title: SI사업부 / 웹 개발자
-        quote: >
-          금융 프로젝트
-        description: | 
-          - 우리은행, 하나은행 프로젝트
-          - xFrame, 전자정부프레임워크, Oracle 환경에서 개발 경험
-
-      - layout: left
-        title: 에스아이티
-        caption: 2017.03 ~ 2017.05
-        sub_title: 반도체사업2팀 / 인턴
-        quote: >
-          공장자동화 프로젝트
-        description: | 
-          - 삼성전자 P-PJT 설비제어공사
-          - C, WinCC OA, Oracle, 지멘스 S7 환경에서 Human-Machine Interface 개발 경험
-
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 넥스트스텝
+        caption: 2022.10 ~ 2022.12
+        sub_title: 우아한테크캠프 Pro 5기
+        quote: >
+          경력 개발자를 위한 강의
+        description: | # this will include new lines to allow paragraphs
+          - Java 백엔드 경력 개발자를 대상으로 서비스 개발에 필요한 역량을 학습하기 위한 강의
+          - TDD, JPA, 테스트 코드, 인프라(AWS, Docker), 리팩토링 등 서비스 개발에서 백엔드 개발자로서 갖춰야 할 지식을 학습
+      
       - layout: left
         title: 비트교육센터
         caption: 2018.02 ~ 2018.08
@@ -283,17 +213,17 @@ content:
         quote: >
           엄진영 강사님의 교육
         description: | # this will include new lines to allow paragraphs
-          - 풀스택 웹 서비스 개발에 필요 지식과 기술을 학습
-          - Java 8, Spring Framework, SQL, MariaDB, MyBatis, JSP, HTML/CSS, Javascript, jQuery, Handlebars, Maven, Gradle, npm, GitHub, AWS, Eclipse
+          - Java 문법부터 웹 개발까지 웹 개발 기초를 학습
+          - Java 8, Spring Framework, SQL, MariaDB, myBatis, JSP, HTML/CSS, Javascript, jQuery, Handlebars, Maven, Gradle, npm, Github, AWS, Eclipse
 
       - layout: left
         title: 강원대학교
         caption: 2010.03 ~ 2017.02
-        sub_title: 산업공학과 / 소프트웨어융합전공
+        sub_title: 산업공학과
         quote: >
-          소프트웨어융합 연계전공 이수
+          소프트웨어융합전공(Samsung Convergence Software Course)
         description: | 
-          - 컴퓨터개론및실습, 데이터베이스, 운영체제, 컴퓨터구조, 객체지향프로그래밍, 모바일프로그래밍, 자료구조, 웹프로그래밍및실습, 알고리즘, 프로그래밍언어론, 소프트웨어융합프로젝트 수강
+          - 연계전공 수강 과목 : 객체지향프로그래밍, 자료구조, 알고리즘, 컴퓨터구조, 데이터베이스, 운영체제, 소프트웨어융합프로젝트, 모바일프로그래밍, 웹프로그래밍및실습, 프로그래밍언어론, 컴퓨터개론및실습
 
   - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
