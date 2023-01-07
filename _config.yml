@@ -78,13 +78,13 @@ content:
           - HTML, CSS, Javascript, jQuery
 
   - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: left
         caption: 2022.05 ~ 2022.10
-        sub_title: BMW Dealer Management System Next 구축 프로젝트 / 2022.05 ~ 2022.10 / 웅진
+        sub_title: BMW Dealer Management System Next 구축 프로젝트 / 15명 / 웅진
         quote: >
-          BMW KR 딜러, 지점의 부품 재고 현황 및 실적 관리 시스템 / 15명
+          BMW KR 딜러, 지점의 부품 재고 현황 및 실적 관리 시스템
         description: |
           - 보고서 조회 개발 담당(Recall/TC, Dealer Turnover, 고객/차량, 부품 현황 등)
           - 검색 조건에서 공통으로 사용하는 선택 상자(딜러, 지점, 브랜드, 시리즈 등) 모듈화
@@ -92,11 +92,10 @@ content:
 
       - layout: left
         caption: 2022.03 ~ 2022.04
-        sub_title: 웅진
+        sub_title: Kia Motors Europe Dealer Academy Enhancement / 2명 / 웅진
         quote: >
-          Kia Motors Europe Dealer Academy Enhancement
+          기아 자동차 유럽 법인 딜러 교육 시스템
         description: |
-          - 기아 자동차 유럽 법인 딜러 교육 시스템 / 2명
           - 사용자 페이지와 관리자 페이지 기능 추가 및 수정 담당
           - Message Source를 이용해서 Locale에 따라 언어별로 직위 표시
           - 개발 환경 : Java 6, Spring Framework 2, JSP, Javascript, jQuery, Oracle, Maven, Bitbucket, Jira, Eclipse
