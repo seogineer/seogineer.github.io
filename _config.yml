@@ -103,7 +103,6 @@ content:
           - 개발 환경 : Java 6, Spring Framework 2, JSP, Javascript, jQuery, Oracle, Maven, Bitbucket, Jira, Eclipse
 
       - layout: left
-        sub_title: 웅진
         quote: >
           기타 프로젝트
         description: |
@@ -120,7 +119,6 @@ content:
             - 개발 환경 : Java 8, Spring Framework 4, JSP, Javascript, jQuery, Maven, PostgreSQL, Bitbucket, Jira, IntelliJ
 
       - layout: left
-        sub_title: 웅진
         quote: >
           리팩토링
         description: |
@@ -143,7 +141,6 @@ content:
           - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ, Jira
       
       - layout: left
-        sub_title: 넥스트컬쳐
         quote: >
           기타 프로젝트
         description: |
@@ -152,7 +149,6 @@ content:
             - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
-        sub_title: 넥스트컬쳐
         quote: >
           개발 서버에 GitLab의 Runner를 사용하여 CI/CD 구축
         description: |
@@ -181,7 +177,6 @@ content:
           - 개발 환경 : Java, Javascript, JDBC, Oracle, Windows10
 
       - layout: left
-        sub_title: 코아뱅크
         quote: >
           기타 프로젝트
         description: |
