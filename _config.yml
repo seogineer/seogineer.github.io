@@ -12,7 +12,7 @@ email: dgseo8981@gmail.com
 website: https://seogineer.tistory.com
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 # twitter_username: facespics
@@ -48,7 +48,9 @@ linkedin_username: 도경-서-863031200
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java/Spring 백엔드 개발자 서도경입니다. 저는 주로 레거시 환경에서 개발 업무를 수행한 경험 때문에 유지 보수 하기 좋은 코드에 관심이 많습니다. 테스트 코드, 리팩토링, 인프라에 대한 역량을 갈고닦아서 레거시 환경에서도 유지보수하기 좋은 개발 환경을 만들고 싶습니다.
+  Java/Spring 백엔드 개발자 서도경입니다.
+  저는 주로 레거시 환경에서 개발 업무를 수행한 경험 때문에 유지 보수 하기 좋은 코드에 관심이 많습니다.
+  테스트 코드, 리팩토링, 인프라에 대한 역량을 갈고닦아서 레거시 환경에서도 유지보수하기 좋은 개발 환경을 만들고 싶습니다.
 #  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -79,7 +81,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        # title: BMW Dealer Management System Next 구축 프로젝트
         caption: 2022.05 ~ 2022.10
         sub_title: 웅진
         quote: >
@@ -91,9 +92,10 @@ content:
           - 개발 환경 : Java 8, Spring Boot 2.5, jQuery, JSP, MyBatis, Oracle 19c, git, IntelliJ
 
       - layout: left
-        title: Kia Motors Europe Dealer Academy Enhancement
         caption: 2022.03 ~ 2022.04
         sub_title: 웅진
+        quote: >
+          Kia Motors Europe Dealer Academy Enhancement
         description: |
           - 기아 자동차 유럽 법인 딜러 교육 시스템 / 2명
           - 사용자 페이지와 관리자 페이지 기능 추가 및 수정 담당
@@ -101,8 +103,9 @@ content:
           - 개발 환경 : Java 6, Spring Framework 2, JSP, Javascript, jQuery, Oracle, Maven, Bitbucket, Jira, Eclipse
 
       - layout: left
-        title: 기타 프로젝트
         sub_title: 웅진
+        quote: >
+          기타 프로젝트
         description: |
           - 넥센 NEXT LEVEL 시스템 Time Management System 엔진 고도화 지원 개발
             - 비대면 방문 타이어 교체 서비스 / 2022.03 ~ 2022.04 / 3명
@@ -117,17 +120,19 @@ content:
             - 개발 환경 : Java 8, Spring Framework 4, JSP, Javascript, jQuery, Maven, PostgreSQL, Bitbucket, Jira, IntelliJ
 
       - layout: left
-        title: 리팩토링
         sub_title: 웅진
+        quote: >
+          리팩토링
         description: |
           - 생성자 주입으로 변경
           - Enum을 이용한 if문 가독성 개선
           - Lombok 사용
 
       - layout: left
-        title: 롯데칠성 음료학교 웹사이트 리뉴얼
         caption: 2021.04 ~ 2021.09
         sub_title: 넥스트컬쳐
+        quote: >
+          롯데칠성 음료학교 웹사이트 리뉴얼
         description: |
           - 소비자들이 음료에 대한 아이디어를 공유하고 선정된 아이디어를 롯데 칠성에서 음료를 직접 제작하는 서비스 / 2명
           - 게시판 및 관리자 페이지 REST API 개발 (음료학교 소식, 포트폴리오, 공지사항, FAQ, QnA, 회원관리 등)
@@ -138,33 +143,37 @@ content:
           - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ, Jira
       
       - layout: left
-        title: 기타 프로젝트
         sub_title: 넥스트컬쳐
+        quote: >
+          기타 프로젝트
         description: |
           - 롯데푸드 홈페이지 리뉴얼 / 2021.08 ~ 2021.09 / 2명
             - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트), 고객지원(공지사항) REST API 개발
             - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
-        title: 개발 서버에 GitLab의 Runner를 사용하여 CI/CD 구축
         sub_title: 넥스트컬쳐
+        quote: >
+          개발 서버에 GitLab의 Runner를 사용하여 CI/CD 구축
         description: |
           - 구축 방법 문서화 및 Confluence에 공유
           - 구축 과정에서 리눅스 권한과 POI 라이브러리와 충돌 오류 해결 과정 Confluence에 공유
 
       - layout: left
-        title: 우리은행 한국교직원공제회 외화자금운용시스템 구축
         caption: 2020.07 ~ 2020.10
         sub_title: 코아뱅크
+        quote: >
+          우리은행 한국교직원공제회 외화자금운용시스템 구축
         description: | 
           - 한국교직원공제회의 외화자금운용을 위한 시스템 구축 / 20명
           - 공통으로 사용하는 코드나 기능 개발 담당(통화코드관리, BIC코드관리, 국가코드관리 등)
           - 개발 환경 : Java, Javascript, 전자정부프레임워크, Oracle19c, Windows10
 
       - layout: left
-        title: 우리은행 인도 첸나이 Standardized Corporate Environment(SCORE) 구축
         caption: 2020.02 ~ 2020.07
         sub_title: 코아뱅크
+        quote: >
+          우리은행 인도 첸나이 Standardized Corporate Environment(SCORE) 구축
         description: |
           - 우리은행과 기업 사이의 SWIFT 전문 전송 시스템 / 2명
           - 현대글로비스에서 요구하는 전문 양식에 맞춰 전문 변환 솔루션(CDK-Plus) 기능 수정 역할 담당
@@ -172,8 +181,9 @@ content:
           - 개발 환경 : Java, Javascript, JDBC, Oracle, Windows10
 
       - layout: left
-        title: 기타 프로젝트
         sub_title: 코아뱅크
+        quote: >
+          기타 프로젝트
         description: |
           - 하나은행 수출입 고도화 / 2019.03 - 2020.01 / 10명
             - EDMS(Electronic Document Management System)와 연동을 통해 수출입 업무의 전자 문서화
