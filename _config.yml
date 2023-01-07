@@ -80,7 +80,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: center
+      - layout: left
         caption: 2022.05 ~ 2022.10
         sub_title: BMW Dealer Management System Next 구축 프로젝트 / 15명 / 웅진
         quote: >
@@ -102,22 +102,6 @@ content:
 
       - layout: left
         quote: >
-          기타 프로젝트
-        description: |
-          - 넥센 NEXT LEVEL 시스템 Time Management System 엔진 고도화 지원 개발
-            - 비대면 방문 타이어 교체 서비스 / 2022.03 ~ 2022.04 / 3명
-            - 사용자의 주소, 교체를 담당하는 대리점 위치를 이용해서 TMS으로부터 타이어 교체 차량을 배정
-            - TMS로부터 나온 결과에 따라 문자 Table에 문자 저장 및 재고 관련 기능 수정
-            - 사용자, 관리자 페이지 기능 추가 및 오류 수정
-            - 개발 환경 : Java 8, Spring Framework 4, Maven, Javascript, Nexacro 14, Oracle, SVN, Eclipse
-          - Kia Europe MyService Enhancement
-            - 기아 자동차 유럽 법인 정비소 관리 시스템 / 2022.02 ~ 2022.03 / 4명
-            - 사용자 페이지 기능 추가
-            - 페이지별로 가지고 있는 View Id로 Interceptor에서 필터링해서 방문자 수 카운팅
-            - 개발 환경 : Java 8, Spring Framework 4, JSP, Javascript, jQuery, Maven, PostgreSQL, Bitbucket, Jira, IntelliJ
-
-      - layout: left
-        quote: >
           리팩토링
         description: |
           - 생성자 주입으로 변경
@@ -126,25 +110,16 @@ content:
 
       - layout: left
         caption: 2021.04 ~ 2021.09
-        sub_title: 넥스트컬쳐
+        sub_title: 롯데칠성 음료학교 웹사이트 리뉴얼 / 3명 / 넥스트컬쳐
         quote: >
-          롯데칠성 음료학교 웹사이트 리뉴얼
+          소비자들이 음료에 대한 아이디어를 공유하고 선정된 아이디어를 롯데 칠성에서 음료를 직접 제작하는 서비스
         description: |
-          - 소비자들이 음료에 대한 아이디어를 공유하고 선정된 아이디어를 롯데 칠성에서 음료를 직접 제작하는 서비스 / 2명
           - 게시판 및 관리자 페이지 REST API 개발 (음료학교 소식, 포트폴리오, 공지사항, FAQ, QnA, 회원관리 등)
           - 개인정보 보안 심의 대응 개발
             - 관리자 페이지에서 개인정보 조회 시 정규식과 replace를 이용하여 (*)로 마스킹 처리
             - @Scheduled 기능을 이용하여 주기적으로 개인정보 삭제
             - 개인정보 조회 시 로그 저장
           - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, Docker, GitLab, IntelliJ, Jira
-      
-      - layout: left
-        quote: >
-          기타 프로젝트
-        description: |
-          - 롯데푸드 홈페이지 리뉴얼 / 2021.08 ~ 2021.09 / 2명
-            - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트), 고객지원(공지사항) REST API 개발
-            - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
         quote: >
@@ -155,36 +130,22 @@ content:
 
       - layout: left
         caption: 2020.07 ~ 2020.10
-        sub_title: 코아뱅크
+        sub_title: 우리은행 한국교직원공제회 외화자금운용시스템 구축 / 10명 / 코아뱅크
         quote: >
-          우리은행 한국교직원공제회 외화자금운용시스템 구축
+          한국교직원공제회의 외화자금운용을 위한 시스템
         description: | 
-          - 한국교직원공제회의 외화자금운용을 위한 시스템 구축 / 20명
           - 공통으로 사용하는 코드나 기능 개발 담당(통화코드관리, BIC코드관리, 국가코드관리 등)
           - 개발 환경 : Java, Javascript, 전자정부프레임워크, Oracle19c, Windows10
 
       - layout: left
         caption: 2020.02 ~ 2020.07
-        sub_title: 코아뱅크
+        sub_title: 우리은행 인도 첸나이 Standardized Corporate Environment(SCORE) 구축 / 2명 / 코아뱅크
         quote: >
-          우리은행 인도 첸나이 Standardized Corporate Environment(SCORE) 구축
+          우리은행과 기업 사이의 SWIFT 전문 전송 시스템
         description: |
-          - 우리은행과 기업 사이의 SWIFT 전문 전송 시스템 / 2명
           - 현대글로비스에서 요구하는 전문 양식에 맞춰 전문 변환 솔루션(CDK-Plus) 기능 수정 역할 담당
           - 업체 코드 관리 페이지 신규 개발
           - 개발 환경 : Java, Javascript, JDBC, Oracle, Windows10
-
-      - layout: left
-        quote: >
-          기타 프로젝트
-        description: |
-          - 하나은행 수출입 고도화 / 2019.03 - 2020.01 / 10명
-            - EDMS(Electronic Document Management System)와 연동을 통해 수출입 업무의 전자 문서화
-            - 신규 페이지 개발 및 기존 페이지 기능 추가
-            - 개발 환경 : C, Proframe, Javascript, Xframe, Oracle, Windows10
-          - 하나은행 글로벌검사정보 시스템 고도화 / 2018.10 - 2019.01 / 3명
-            - 게시판 UI 수정 및 오류 수정
-            - 개발 환경 : Java, JSP, Javascript, Tibero, Windows7
 
     # - layout: left
         # title: sample title
