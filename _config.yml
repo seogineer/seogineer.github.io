@@ -80,7 +80,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: center
         caption: 2022.05 ~ 2022.10
         sub_title: BMW Dealer Management System Next 구축 프로젝트 / 15명 / 웅진
         quote: >
