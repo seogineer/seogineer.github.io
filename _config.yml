@@ -79,9 +79,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: BMW Dealer Management System Next 구축 프로젝트
+        # title: BMW Dealer Management System Next 구축 프로젝트
         caption: 2022.05 ~ 2022.10
         sub_title: 웅진
+        quote: >
+          BMW Dealer Management System Next 구축 프로젝트
         description: |
           - BMW KR 딜러, 지점의 부품 재고 현황 및 실적 관리 시스템 / 15명
           - 보고서 조회 개발 담당(Recall/TC, Dealer Turnover, 고객/차량, 부품 현황 등)
@@ -202,7 +204,7 @@ content:
         caption: 2022.10 ~ 2022.12
         sub_title: 우아한테크캠프 Pro 5기
         quote: >
-          경력 개발자를 위한 강의
+          4년 차 이상의 경력직 개발자 대상 강의
         description: | # this will include new lines to allow paragraphs
           - Java 백엔드 경력 개발자를 대상으로 서비스 개발에 필요한 역량을 학습하기 위한 강의
           - TDD, JPA, 테스트 코드, 인프라(AWS, Docker), 리팩토링 등 서비스 개발에서 백엔드 개발자로서 갖춰야 할 지식을 학습
