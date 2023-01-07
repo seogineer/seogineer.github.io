@@ -139,8 +139,9 @@ content:
         title: 기타 프로젝트
         sub_title: 넥스트컬쳐
         description: |
-          - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트), 고객지원(공지사항) REST API 개발
-          - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
+          - 롯데푸드 홈페이지 리뉴얼 / 2021.08 ~ 2021.09 / 2명
+            - 컨텐츠룸(롯데푸드CF, 보도자료, 레시피, 이벤트), 고객지원(공지사항) REST API 개발
+            - 개발 환경 : Java 11, Spring Boot, Spring Data JPA, QueryDSL, MariaDB, Linux, GitLab, IntelliJ
       
       - layout: left
         title: 개발 서버에 GitLab의 Runner를 사용하여 CI/CD 구축
