@@ -76,8 +76,36 @@ content:
         title: Frontend
         description: |
           - HTML, CSS, Javascript, jQuery
+  
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: 웅진
+        caption: 2021.10 ~ 2022.10
+        sub_title: 모빌리티사업팀 / 웹 개발자
+        quote: >
+          중견 SI 기업
+        description: |
+          - 기아모터스 유럽법인, 넥센타이어, BMW 프로젝트 참여
+      - layout: left
+        title: 넥스트컬쳐
+        caption: 2021.04 ~ 2021.09
+        sub_title: 백엔드 개발팀 / 백엔드 개발자
+        quote: >
+          웹에이전시
+        description: |
+          - 롯데칠성, 롯데푸드 프로젝트 참여
+      - layout: left
+        title: 코아뱅크
+        caption: 2018.09 ~ 2020.11
+        sub_title: SI사업부 / 웹 개발자
+        quote: >
+          금융 SI 기업
+        description: | 
+          - 하나은행, 우리은행 프로젝트 참여
 
-  - title: Experiences # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
