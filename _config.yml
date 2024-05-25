@@ -82,13 +82,13 @@ content:
     layout: list
     content:
       - layout: left
-          title: 얼리소프트
-          caption: 2023.05 ~
-          sub_title: 개발2사업부 / 웹 개발자
-          quote: >
-            현대오토에버 협력사
-          description: |
-            - 현대트랜스리드, 기아 프로젝트 참여
+        title: 얼리소프트
+        caption: 2023.05 ~
+        sub_title: 개발2사업부 / 웹 개발자
+        quote: >
+          현대오토에버 협력사
+        description: |
+          - 현대트랜스리드, 기아 프로젝트 참여
       - layout: left
         title: 웅진
         caption: 2021.10 ~ 2022.10
