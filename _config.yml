@@ -124,8 +124,8 @@ content:
           자동차 생산 라인의 종이 검사 성적서를 모바일/터치PC로 작성하는 시스템
         description: |
           - Java, Spring을 이용한 REST API 개발 및 Javascript, jQuery를 이용한 모바일, 터치PC용 웹페이지 개발
-          - rwdImageMaps.js를 이용해서 이미지 영역 클릭 이벤트 구현
-          - maphilight.js를 이용해서 클릭한 이미지 영역 강조 효과 구현
+          - rwdImageMaps.js를 이용해서 전개도 이미지 영역에 결함을 표시하고 수정을 위한 클릭 이벤트 구현
+          - maphilight.js를 이용해서 선택한 이미지 영역에 강조 효과 구현
           - Oracle SQL에서 MariaDB SQL로 변환
           - 개발 환경 : Java 8, Spring Framework 4.3.25, HTML, Javascript, jQuery, MyBatis, MariaDB, SVN, IntelliJ
 
