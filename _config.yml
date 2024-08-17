@@ -12,7 +12,7 @@ email: dgseo8981@gmail.com
 website: https://seogineer.tistory.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -118,13 +118,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        caption: 2023.12 ~
+        caption: 2023.12 ~ 2024.08
         sub_title: 기아 광주 2공장 의장 모바일 품질 완결 시스템
         quote: >
-          검사성적서 PC/모바일화
+          자동차 생산 라인의 종이 검사 성적서를 모바일/터치PC로 작성하는 시스템
         description: |
-          - 수정장 기능 개발
-          - 개발 환경 : Java 8, Spring Framework 4.3.25, jQuery, MyBatis, MariaDB, SVN, IntelliJ
+          - Java, Spring을 이용한 REST API 개발 및 Javascript, jQuery를 이용한 모바일, 터치PC용 웹페이지 개발
+          - rwdImageMaps.js를 이용해서 이미지 영역 클릭 이벤트 구현
+          - maphilight.js를 이용해서 클릭한 이미지 영역 강조 효과 구현
+          - Oracle SQL에서 MariaDB SQL로 변환
+          - 개발 환경 : Java 8, Spring Framework 4.3.25, HTML, Javascript, jQuery, MyBatis, MariaDB, SVN, IntelliJ
 
       - layout: left
         caption: 2023.07 ~ 2023.11
